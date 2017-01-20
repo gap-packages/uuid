@@ -35,7 +35,7 @@ InstallGlobalFunction(
     StringUUID,
     function(uuid)
         local hex;
-        hex := LowercaseString(HexStringBlist(uuid));
+        hex := LowercaseString(HexStringBlist(uuid!.bits));
         return JoinStringsWithSeparator([
                     hex{[1..8]}, hex{[9..12]}, hex{[13..16]},
                     hex{[17..20]}, hex{[20..32]}],
@@ -46,11 +46,9 @@ InstallMethod(ViewObj, "for UUID", [IsUUID and IsUUIDBlistRep],
    function(uuid)
         Print("<uuid ");
         Print(String(uuid));
-        Print(">");
+        Print(">\n");
    end);
 
 InstallMethod(String, "for UUID", [IsUUID and IsUUIDBlistRep],
-    function(uuid)
-        return StringUUID(uuid!.bits);
-    end);
+    StringUUID);
 
