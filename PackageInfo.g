@@ -10,8 +10,8 @@ SetPackageInfo( rec(
 
 PackageName := "uuid",
 Subtitle := "RFC 4122 UUIDs",
-Version := "0.1",
-Date := "13/11/2015", # dd/mm/yyyy format
+Version := "0.2",
+Date := "20/01/2017", # dd/mm/yyyy format
 
 Persons := [
   rec(
