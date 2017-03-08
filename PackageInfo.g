@@ -34,7 +34,7 @@ Persons := [
   ),
 ],
 
-PackageWWWHome := "http://gap-packages.github.io/uuid/",
+PackageWWWHome := "https://gap-packages.github.io/uuid/",
 
 ArchiveURL     := Concatenation("https://github.com/gap-packages/uuid/",
                                 "releases/download/v", ~.Version,
