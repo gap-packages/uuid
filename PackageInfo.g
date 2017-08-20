@@ -10,8 +10,8 @@ SetPackageInfo( rec(
 
 PackageName := "uuid",
 Subtitle := "RFC 4122 UUIDs",
-Version := "0.2",
-Date := "20/01/2017", # dd/mm/yyyy format
+Version := "0.3",
+Date := "20/08/2017", # dd/mm/yyyy format
 
 Persons := [
   rec(
@@ -70,7 +70,7 @@ PackageDoc := rec(
 ),
 
 Dependencies := rec(
-  GAP := ">= 4.6",
+  GAP := ">= 4.8",
   NeededOtherPackages := [ [ "GAPDoc", ">= 1.5" ] ],
   SuggestedOtherPackages := [ ],
   ExternalConditions := [ ],
