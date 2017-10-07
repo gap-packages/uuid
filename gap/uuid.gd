@@ -8,6 +8,7 @@
 #!   Generate a random UUID
 DeclareGlobalFunction("RandomUUID");
 DeclareGlobalFunction("StringUUID");
+DeclareGlobalFunction("HexStringUUID");
 
 BindGlobal( "UUIDFamily", NewFamily("UUIDFamily") );
 DeclareCategory( "IsUUID", IsComponentObjectRep );

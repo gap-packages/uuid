@@ -40,6 +40,9 @@ function(uuid)
                 "-");
 end);
 
+InstallGlobalFunction(HexStringUUID,
+uuid -> HexStringBlist(uuid!.bits));
+
 InstallMethod(ViewString, "for UUID", [IsUUID and IsUUIDBlistRep],
 uuid -> Concatenation("<uuid ", String(uuid), ">"));
 
