@@ -10,8 +10,8 @@ SetPackageInfo( rec(
 
 PackageName := "uuid",
 Subtitle := "RFC 4122 UUIDs",
-Version := "0.3",
-Date := "20/08/2017", # dd/mm/yyyy format
+Version := "0.4",
+Date := "08/10/2017", # dd/mm/yyyy format
 
 Persons := [
   rec(
@@ -39,7 +39,7 @@ PackageWWWHome := "https://gap-packages.github.io/uuid/",
 ArchiveURL     := Concatenation("https://github.com/gap-packages/uuid/",
                                 "releases/download/v", ~.Version,
                                 "/uuid-", ~.Version),
-README_URL     := Concatenation( ~.PackageWWWHome, "README" ),
+README_URL     := Concatenation( ~.PackageWWWHome, "README.md" ),
 PackageInfoURL := Concatenation( ~.PackageWWWHome, "PackageInfo.g" ),
 SourceRepository := rec( 
   Type := "git", 
@@ -82,7 +82,7 @@ AvailabilityTest := function()
 
 TestFile := "tst/testall.g",
 
-#Keywords := [ "TODO" ],
+Keywords := [ "UUID", "RFC4122" ],
 
 ));
 
