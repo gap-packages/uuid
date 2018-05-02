@@ -18,6 +18,11 @@
 /doc/*.tex
 /doc/*.toc
 /doc/manual.pdf
+/doc/_*.xml
+/doc/AutoDocMainFile.xml
+/doc/Chapter_*.xml
+/doc/title.xml
+/doc/uuid.xml
 
 .deps/
 .dirstamp
@@ -44,3 +49,5 @@
 
 *.la
 src/*.lo
+
+gh-pages
