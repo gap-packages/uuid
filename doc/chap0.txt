@@ -6,10 +6,10 @@
                                 [1X RFC 4122 UUIDs [101X
   
   
-                                      0.5
+                                      0.6
   
   
-                                  22 May 2018
+                               22 September 2018
   
   
                                 Markus Pfeiffer

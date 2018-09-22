@@ -1,6 +1,6 @@
 name: uuid
-version: 0.5
-date: 2018-05-22
+version: 0.6
+date: 2018-09-22
 description: |
     RFC 4122 UUIDs
 
@@ -25,9 +25,10 @@ packageinfo: https://gap-packages.github.io/uuid/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/gap-packages/uuid/releases/download/v0.5/uuid-0.5.tar.gz
+      url: https://github.com/gap-packages/uuid/releases/download/v0.6/uuid-0.6.tar.gz
 
 abstract: |
+    UUIDs for GAP
 
 status: dev
 doc-html: doc/chap0.html

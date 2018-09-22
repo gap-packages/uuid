@@ -10,8 +10,8 @@ SetPackageInfo( rec(
 
 PackageName := "uuid",
 Subtitle := "RFC 4122 UUIDs",
-Version := "0.5",
-Date := "22/05/2018", # dd/mm/yyyy format
+Version := "0.6",
+Date := "22/09/2018", # dd/mm/yyyy format
 
 Persons := [
   rec(
@@ -58,7 +58,7 @@ ArchiveFormats := ".tar.gz",
 ##
 Status := "dev",
 
-AbstractHTML   :=  "",
+AbstractHTML   :=  "UUIDs for GAP",
 
 PackageDoc := rec(
   BookName  := "uuid",
