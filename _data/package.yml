@@ -1,6 +1,6 @@
 name: uuid
-version: 0.6
-date: 2018-09-22
+version: 0.7
+date: 2022-03-01
 description: |
     RFC 4122 UUIDs
 
@@ -9,8 +9,8 @@ authors:
       url: http://www.morphism.de/~markusp/
 
 maintainers:
-    - name: Markus Pfeiffer
-      url: http://www.morphism.de/~markusp/
+    - name: The GAP Team
+      url: mailto:support@gap-system.org
 
 GAP: ">= 4.8"
 
@@ -25,11 +25,11 @@ packageinfo: https://gap-packages.github.io/uuid/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/gap-packages/uuid/releases/download/v0.6/uuid-0.6.tar.gz
+      url: https://github.com/gap-packages/uuid/releases/download/v0.7/uuid-0.7.tar.gz
 
 abstract: |
     UUIDs for GAP
 
-status: dev
+status: deposited
 doc-html: doc/chap0.html
 doc-pdf: doc/manual.pdf
