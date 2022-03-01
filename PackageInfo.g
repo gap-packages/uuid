@@ -10,14 +10,14 @@ SetPackageInfo( rec(
 
 PackageName := "uuid",
 Subtitle := "RFC 4122 UUIDs",
-Version := "0.6",
-Date := "22/09/2018", # dd/mm/yyyy format
+Version := "0.7",
+Date := "01/03/2022", # dd/mm/yyyy format
 License := "BSD-3-Clause",
 
 Persons := [
   rec(
     IsAuthor := true,
-    IsMaintainer := true,
+    IsMaintainer := false,
     FirstNames := "Markus",
     LastName := "Pfeiffer",
     WWWHome := "http://www.morphism.de/~markusp/",
@@ -32,6 +32,13 @@ Persons := [
              "Scotland"),
     Place := "St Andrews",
     Institution := "University of St Andrews",
+  ),
+  rec(
+    LastName      := "GAP Team",
+    FirstNames    := "The",
+    IsAuthor      := false,
+    IsMaintainer  := true,
+    Email         := "support@gap-system.org",
   ),
 ],
 
