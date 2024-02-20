@@ -1,5 +1,6 @@
 name: uuid
-version: 0.7
+version: "0.7"
+license: "BSD-3-Clause"
 date: 2022-03-01
 description: |
     RFC 4122 UUIDs
@@ -33,3 +34,30 @@ abstract: |
 status: deposited
 doc-html: doc/chap0.html
 doc-pdf: doc/manual.pdf
+keywords: |
+    UUID, RFC4122.
+citeas: |
+    <p class='BibEntry'>
+    [<span class='BibKey'>PT22</span>]   <b class='BibAuthor'>Pfeiffer, M. and GAP Team, T.</b>,
+     <i class='BibTitle'>uuid, RFC 4122 UUIDs,
+             Version 0.7</i>
+     (<span class='BibYear'>2022</span>)<br />
+    (<span class='BibNote'>GAP package</span>),
+    <span class='BibHowpublished'><a href="https://gap-packages.github.io/uuid/">https://gap-packages.github.io/uuid/</a></span>.
+    </p>
+    
+
+bibtex: |
+    @misc{ uuid0.7,
+      author =           {Pfeiffer, M. and GAP Team, T.},
+      title =            {{uuid}, RFC 4122 UUIDs, {V}ersion 0.7},
+      month =            {Mar},
+      year =             {2022},
+      note =             {GAP package},
+      howpublished =     {\href           {https://gap-packages.github.io/uuid/}
+                          {\texttt{https://gap-packages.github.io/}\discretionary
+                          {}{}{}\texttt{uuid/}}},
+      keywords =         {UUID; RFC4122},
+      printedkey =       {PT22}
+    }
+
